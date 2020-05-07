@@ -10,7 +10,7 @@ import networking
 
 logging.basicConfig(level=logging.INFO)
 client = discord.Client()
-bot_channel = discord.Object(id='696611589876482068')
+bot_channel = discord.Object(id='706698023186464858')
 
 
 @client.event
@@ -75,4 +75,4 @@ async def get_questions():
         await client.send_message(bot_channel, str(error))
 
 client.loop.create_task(get_questions())
-client.run(process.env.token)
+client.run("NzA2ODI0MDU4ODAwNTcwNDI5.XrPh6w.TzN5fLRLqdeIPfjf0TsuA7JAFHs")
